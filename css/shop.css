@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body{
+    font-family: "poppins", sans-serif;
+}
+.main-head h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family:"poppins", sans-serif;
+    margin-top: 3%;
+}
+/* navbar */
+
+.main-nav{
+    background-color:#ffff;
+  
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.368);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.256);
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.326);
+    border-radius:15px;
+}
+.all-items{
+    display: flex;
+    justify-content: center;
+}
+.all-items a{
+    text-decoration: none;
+    color: black;
+    
+    font-family:"poppins", sans-serif ;
+}
+.all-items a span{
+    border: 1px solid white;
+    padding: 5px 20px;
+    
+    background-color:  rgba(130, 130, 130, 0.112);
+    border-radius: 5px;
+}
+.login{
+   margin-left: 30px;
+
+}
+.login a{
+  margin-left: 8px;  
+}
+.bag{
+    margin-left: 20px;
+}
+.bag i{
+    margin-left: 20px;
+}
+
+
+/* latest */
+.latest h3{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 200;
+    font-weight: bolder;
+}
+.card-row1{
+   width: 100%;
+   height: auto;
+   margin-top: 6%;
+   gap: 3%;
+   display: flex;
+   justify-content: center;
+}
+.cards{
+    background-color:rgba(130, 130, 130, 0.112);
+    height: 290px;
+    width: 20%;
+    cursor: pointer;
+    position: relative;
+}
+.products img{
+    width: 40%;
+    margin-left: 32%;
+    margin-top: 30%;
+    
+}
+.new-label{
+    position: absolute;
+    bottom: 80%;
+    left: 5%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100%;
+    padding: 6px;
+}
+.bottom-label{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 18%;
+    justify-content: space-between;
+}
+.bottom-label span{
+    color: red;
+}
+.watch{
+    margin-left: 40%;
+    height:140px;
+    max-width: max-content;
+   
+}
+.product-image3 img{
+    padding-top: 5%;
+    height: 140px;
+    width:45%;
+   
+    
+}
+.product-image4 img{
+    padding-top: 14%;
+    margin-left: 28%;
+    width: 50%;
+    
+}
+.card-row2{
+    width: 100%;
+    height: auto;
+    margin-top: 4%;
+    gap: 3%;
+    display: flex;
+    justify-content: center;
+ }
+ 
+.product-image5 img{
+    padding-top: 5%;
+    height: auto;
+    margin-left: 28%;
+    width: 50%;   
+}
+.product-image6 img{
+    padding-top:1%;
+    height: auto;
+    margin-left: 28%;
+    width: 50%;    
+}
+
+.product-image7 img{
+    padding-top:0%;
+    height: auto;
+    margin-left: 28%;
+    width: 45%;   
+}
+.product-image8 img{
+    padding-top:2%;
+    height: auto;
+    margin-left: 28%;
+    width: 40%;   
+}
+.view-all-btn{
+    margin-top: 5%;
+    text-align: center;
+}
+.view-all-btn button{
+    border: none;
+    color: white;
+    font-size: medium;
+    font-family: "poppins", sans-serif;
+    padding: 11px 40px;
+    border-radius: 5px;
+    background-color: #db4566;
+
+}
+
+/* footer */
+.footer{
+    margin-top: 10%;
+    height: 480px;
+    background-color: #2d2d2d;
+}
+.upper-icons{
+    height: 190px;
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.middle-labels{
+    display: flex;
+    margin-left: 3%;
+    width: 100%;
+}
+.f-about h5{
+    color: white;
+    font-weight: 600;
+}
+.f-about p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.728);
+}
+.f-about{
+    width: 100%;
+}
+.f-about i{
+    color: white;
+    margin-top: 12px;
+}
+.f-about  span{
+    font-family:"poppins", sans-serif ;
+    margin-left: 4px;
+    color: rgba(255, 255, 255, 0.728);
+   
+}
+.message span{
+    margin-left: 10px;
+}
+.f-about input{
+    width: 85%;
+    height: 40px;
+}
+.f-about button{
+    margin-top: 15px;
+    border: none;
+    background-color: #f896ab;
+    color: white;
+    padding: 10px 30px;
+}
+.f-border{
+    border-bottom: 1.5px solid white;
+    width: 80%;
+    padding-top: 3%;
+    margin: auto;
+}
+.footer h6{
+    text-align: center;
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.728);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:350px) and (max-width:575.98px){
+    .all-items{
+        display: inline;
+        text-align: center;
+       
+    }
+    .login{
+        margin-left: 0px;
+     
+     }
+     .bag{
+        margin-left: 0px;
+    }
+    .bag i{
+        margin-left: 0px;
+    }
+    
+/* latest */
+.card-row1{
+    display: inline;
+    width: 100%
+}
+.bottom-label{
+    margin-top: 5%;
+}
+.card-row2{
+    display: inline;
+    width: 100%;
+}
+.cards{
+    width: 100%;
+    height: 380px;
+    margin-top: 10%;   
+
+}
+
+
+/* footer */
+.footer{
+    margin-top: 10%;
+    height: 910px;
+    background-color: #2d2d2d;
+}
+.upper-icons{
+    height: 190px;
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.middle-labels{
+    display: inline;
+    text-align: center;
+    margin-left: 1%;
+    width: 100%;
+}
+.f-about h5{
+    color: white;
+    font-weight: 600;
+    padding-top: 5%;
+}
+.f-about p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.728);
+}
+.f-about{
+    width: 100%;
+}
+.f-about h6{
+    width: 10%;
+}
+
+
+}

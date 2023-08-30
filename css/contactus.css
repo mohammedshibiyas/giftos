@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body{
+    font-family: "poppins", sans-serif;
+}
+.nav-head span a{
+    font-weight: bold;
+    font-size: 23px;
+    display: none;
+}
+.main-head h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family:"poppins", sans-serif;
+    margin-top: 3%;
+}
+/* navbar */
+
+.main-nav{
+    background-color:#ffff;
+  
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.368);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.256);
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.326);
+    border-radius:15px;
+}
+.all-items{
+    display: flex;
+    justify-content: center;
+}
+.all-items a{
+    text-decoration: none;
+    color: black;
+    
+    font-family:"poppins", sans-serif ;
+}
+.all-items a span{
+    border: 1px solid white;
+    padding: 5px 20px;
+    
+    background-color:  rgba(130, 130, 130, 0.112);
+    border-radius: 5px;
+}
+.login{
+   margin-left: 30px;
+
+}
+.login a{
+  margin-left: 8px;  
+}
+.bag{
+    margin-left: 20px;
+}
+.bag i{
+    margin-left: 20px;
+}
+
+
+
+/* CONTACT US */
+.contact{
+    
+    
+}
+.contact h2{
+    margin-top: 6%;
+    font-weight: 700;
+}
+.map{
+    margin-top: 0%; 
+    width: 80%;
+}
+.map iframe{
+    width: 100%;
+    height: 550px
+}
+.contact-us{
+    display: flex;
+    margin-top: 4%;
+    height: 550px;
+    -webkit-box-shadow: 0px -1px 11px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 11px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 11px -1px rgba(0,0,0,0.75);
+   
+
+}
+/* form */
+.form{
+    margin-top: 3%;
+    width: 60%;
+  
+}
+.form input{
+    width: 90%;
+    margin-top: 4%;
+    justify-content: center;
+    margin-left: 6%;
+    height: 50px;
+}
+.form textarea{
+    width: 90%;
+    margin-top: 6%;
+    justify-content: center;
+    margin-left: 6%;
+}
+ .form input::placeholder{
+    color: black;
+    padding-left: 20px;
+
+}
+.form textarea::placeholder{
+    color: black;
+    padding-left: 20px;
+    padding-top: 40px;
+
+}
+.form-btn{
+    text-align: center;
+    margin-top: 8%;
+}
+.form-btn button{
+    padding: 10px 40px;
+    border: none;
+    color:white;
+    background-color: #db4566;
+}
+.form-btn button:hover{
+    border: 1px solid #db4566;
+    background-color: transparent;
+    color: #db4566;
+    transition: 0.3s;
+}
+.test-head h2{
+    text-align: center;
+    margin-top: 8%;
+    padding-bottom: 30px;
+    font-weight: 800;
+}
+
+/* footer */
+.footer{
+    margin-top: 10%;
+    height: 480px;
+    background-color: #2d2d2d;
+}
+.upper-icons{
+    height: 190px;
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.middle-labels{
+    display: flex;
+    margin-left: 3%;
+    width: 100%;
+}
+.f-about h5{
+    color: white;
+    font-weight: 600;
+}
+.f-about p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.728);
+}
+.f-about{
+    width: 100%;
+}
+.f-about i{
+    color: white;
+    margin-top: 12px;
+}
+.f-about  span{
+    font-family:"poppins", sans-serif ;
+    margin-left: 4px;
+    color: rgba(255, 255, 255, 0.728);
+   
+}
+.message span{
+    margin-left: 10px;
+}
+.f-about input{
+    width: 85%;
+    height: 40px;
+}
+.f-about button{
+    margin-top: 15px;
+    border: none;
+    background-color: #f896ab;
+    color: white;
+    padding: 10px 30px;
+}
+.f-border{
+    border-bottom: 1.5px solid white;
+    width: 80%;
+    padding-top: 3%;
+    margin: auto;
+}
+.footer h6{
+    text-align: center;
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.728);
+
+}
+
+
+
+@media(min-width:350px) and (max-width:575.98px){
+
+ 
+.nav-head span a{
+    font-weight: bold;
+    font-size: 23px;
+    display: inline;
+}   
+.main-head h3{
+    text-align: center;
+    display: none;
+   
+    margin-top: 3%;
+}
+
+    .all-items{
+        display: inline;
+        text-align: center;
+       
+    }
+    .login{
+        margin-left: 0px;
+     
+     }
+     .bag{
+        margin-left: 0px;
+    }
+    .bag i{
+        margin-left: 0px;
+    }
+
+    
+/* contact us */
+
+.contact h2{
+    margin-top: 20%;
+    font-weight: 700;
+}
+.map{
+    margin-top: 0%; 
+    width: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 350px
+}
+.contact-us{
+    display: inline;
+    margin-top: 8%;
+    height: 550px;
+    -webkit-box-shadow: 0px -1px 11px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 11px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 11px -1px rgba(0,0,0,0.75);
+   
+
+}
+
+.form{
+    margin-top: 3%;
+    width: 100%;
+  
+}
+.form input{
+    width: 90%;
+    margin-top: 4%;
+    justify-content: center;
+    margin-left: 6%;
+    height: 50px;
+}
+.form textarea{
+    width: 90%;
+    margin-top: 6%;
+    justify-content: center;
+    margin-left: 6%;
+}
+
+.test-head h2{
+    text-align: center;
+    margin-top: 25%;
+    font-weight: 800;
+}
+
+/* footer */
+.footer{
+    margin-top: 10%;
+    height: 910px;
+    background-color: #2d2d2d;
+}
+.upper-icons{
+    height: 190px;
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.middle-labels{
+    display: inline;
+    text-align: center;
+    margin-left: 1%;
+    width: 100%;
+}
+.f-about h5{
+    color: white;
+    font-weight: 600;
+    padding-top: 5%;
+}
+.f-about p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.728);
+}
+.f-about{
+    width: 100%;
+}
+.f-about h6{
+    width: 10%;
+}
+}

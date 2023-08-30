@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body{
+    font-family: "poppins", sans-serif;
+}
+.main-head h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family:"poppins", sans-serif;
+    margin-top: 3%;
+}
+/* navbar */
+
+.main-nav{
+    background-color:#ffff;
+  
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.368);
+-moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.256);
+box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.326);
+    border-radius:15px;
+}
+.all-items{
+    display: flex;
+    justify-content: center;
+}
+.all-items a{
+    text-decoration: none;
+    color: black;
+    
+    font-family:"poppins", sans-serif ;
+}
+.all-items a span{
+    border: 1px solid white;
+    padding: 5px 20px;
+    
+    background-color:  rgba(130, 130, 130, 0.112);
+    border-radius: 5px;
+}
+.login{
+   margin-left: 30px;
+
+}
+.login a{
+  margin-left: 8px;  
+}
+.bag{
+    margin-left: 20px;
+}
+.bag i{
+    margin-left: 20px;
+}
+
+.why-head{
+    text-align: center;
+    margin-top: 5%;
+}
+.why-head h3{
+    font-weight: bold;
+}
+/* shop card */
+.shop-cards{
+   margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+   
+}
+.shop-card1{
+    background-color:rgba(130, 130, 130, 0.112);
+    height: 210px;
+    width: 29%;
+}
+.delivery-icon{
+    text-align: center;
+    margin-top: 10%;
+}
+.shop-card1 img{
+    width: 70px;   
+}
+.delivery-head{
+    text-align: center;
+}
+.delivery-para{
+    text-align: center;
+    font-size: 15px;
+}
+.delivery-icon span img{
+    width:55px ;
+}
+.delivery-head span h5{
+    margin-top: 15px;
+}
+
+/* footer */
+.footer{
+    margin-top: 10%;
+    height: 480px;
+    background-color: #2d2d2d;
+}
+.upper-icons{
+    height: 190px;
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.middle-labels{
+    display: flex;
+    margin-left: 3%;
+    width: 100%;
+}
+.f-about h5{
+    color: white;
+    font-weight: 600;
+}
+.f-about p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.728);
+}
+.f-about{
+    width: 100%;
+}
+.f-about i{
+    color: white;
+    margin-top: 12px;
+}
+.f-about  span{
+    font-family:"poppins", sans-serif ;
+    margin-left: 4px;
+    color: rgba(255, 255, 255, 0.728);
+   
+}
+.message span{
+    margin-left: 10px;
+}
+.f-about input{
+    width: 85%;
+    height: 40px;
+}
+.f-about button{
+    margin-top: 15px;
+    border: none;
+    background-color: #f896ab;
+    color: white;
+    padding: 10px 30px;
+}
+.f-border{
+    border-bottom: 1.5px solid white;
+    width: 80%;
+    padding-top: 3%;
+    margin: auto;
+}
+.footer h6{
+    text-align: center;
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.728);
+
+}
+
+
+
+
+
+
+@media(min-width:350px) and (max-width:575.98px){
+    .all-items{
+        display: inline;
+        text-align: center;
+       
+    }
+    .login{
+        margin-left: 0px;
+     
+     }
+     .bag{
+        margin-left: 0px;
+    }
+    .bag i{
+        margin-left: 0px;
+    }
+
+    
+/* shop card */
+
+.shop-cards{
+    margin-top: 5%;
+     display: inline;
+     flex-wrap: wrap;
+     gap: 35px;
+     justify-content: center;
+    
+ }
+ .shop-card1{
+     background-color:rgba(130, 130, 130, 0.112);
+     height: 210px;
+     width: 100%;
+ }
+ .delivery-icon{
+     text-align: center;
+     margin-top: 10%;
+ }
+ .shop-card1 img{
+     width: 70px;   
+ }
+ .delivery-head{
+     text-align: center;
+ }
+ .delivery-para{
+     text-align: center;
+     font-size: 15px;
+ }
+ .delivery-icon span img{
+     width:55px ;
+     margin-top: 4%;
+ }
+ .delivery-head span h5{
+     margin-top: 15px;
+ }
+ 
+/* footer */
+.footer{
+    margin-top: 10%;
+    height: 910px;
+    background-color: #2d2d2d;
+}
+.upper-icons{
+    height: 190px;
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.middle-labels{
+    display: inline;
+    text-align: center;
+    margin-left: 1%;
+    width: 100%;
+}
+.f-about h5{
+    color: white;
+    font-weight: 600;
+    padding-top: 5%;
+}
+.f-about p{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.728);
+}
+.f-about{
+    width: 100%;
+}
+.f-about h6{
+    width: 10%;
+}
+
+}
